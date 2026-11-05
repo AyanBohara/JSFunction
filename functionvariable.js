@@ -25,6 +25,12 @@ const a3 = ()=>{
     console.log('hello anpnymous');
 }
 
-//one line function
+//one liner function
 const a4 = ()=>console.log('eh ok one line function');
-    
+    a4();
+
+    //this is immediate invoke expression function
+    (function(){
+        console.log('hello immediate function');
+    })()
+
