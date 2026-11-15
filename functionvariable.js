@@ -43,4 +43,26 @@ console.log('Hamile 2 ta IFEI ek paxi arko launa paudaina');
 })()
 
 
+// Understanding the return keyword
+// This is one of the most important concepts in JavaScript functions.
 
+// So far, we've used console.log() to display results.
+
+// But what if we want to calculate something and use that result somewhere else?
+
+// That's where return comes in.
+
+function addNumbers(a, b) {
+    return a + b;  //return sends a result back to the place where the function was called.
+}
+
+const result = addNumbers(10, 20); //The returned value 30 is stored inside the result variable.
+
+console.log(result);
+
+// Function type	        Example
+// Function declaration	    function greet() {}
+// Function expression	    const greet = function() {};
+// Arrow function	        const greet = () => {};
+// Anonymous function	    function() {}
+// Callback function	    A function passed into another function
