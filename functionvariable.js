@@ -1,36 +1,46 @@
 //Function Expression
 
-var hero = function hero(){
+var hero = function hero() {
     console.log('You are a main character')
 }
 hero();
 
-//what is anonymous function
-// Functrion wich doesnt have name
-
 //Function decleration
-function a1(){
+function a1() {
     console.log('Hello function');
-    
+
 }
 
 //function expression
-const a2 = function(){
+const a2 = function () {
     console.log('hello function2');
 }
 
 //Arrow function is same as a function
 //a3 is arrow function flat arrow funcion
-const a3 = ()=>{
+const a3 = () => {
     console.log('hello anpnymous');
 }
 
 //one liner function
-const a4 = ()=>console.log('eh ok one line function');
-    a4();
+const a4 = () => console.log('eh ok one line function');
+a4();
 
-    //this is immediate invoke expression function
-    (function(){
-        console.log('hello immediate function');
-    })()
+//IFEI (immediately invoked function expression)
+//this is immediately invoke expression function
+(function () {
+    console.log('hello immediate function');
+})()
+
+console.log('Hamile 2 ta IFEI ek paxi arko launa paudaina');
+
+//what is anonymous function
+// Functrion wich doesnt have name
+
+//if we use IIFE 2 times without other code then it will return me an error
+(() => {
+    console.log('Hello another IFEI');
+})()
+
+
 
