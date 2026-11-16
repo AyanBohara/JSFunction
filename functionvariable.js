@@ -66,3 +66,4 @@ console.log(result);
 // Arrow function	        const greet = () => {};
 // Anonymous function	    function() {}
 // Callback function	    A function passed into another function
+
