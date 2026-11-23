@@ -13,7 +13,7 @@
 const basicFruits = ["apple", "banana", "mango"];
 console.log("1.1", basicFruits[0], basicFruits[2]);
 
-// 2. Change an item and add an item at a chosen index.
+// 2. Change an item and add an item at a chosen index.e
 const basicNumbers = [10, 20, 30];
 basicNumbers[1] = 25;
 basicNumbers[3] = 40;
